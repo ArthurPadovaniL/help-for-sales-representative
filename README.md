@@ -14,28 +14,28 @@ Este dicionário foi desenvolvido especialmente para representantes comerciais q
 
                        explicaçao do codigo
 
-                pd.read_excel() = Lê uma planilha Excel e transforma em uma tabela (DataFrame).
+pd.read_excel() = Lê uma planilha Excel e transforma em uma tabela (DataFrame).
 
-                pd.concat([df1, df2]) = Junta duas tabelas, empilhando uma embaixo da outra.
+pd.concat([df1, df2]) = Junta duas tabelas, empilhando uma embaixo da outra.
 
-               df['coluna'] = Acessa uma coluna da tabela.
+df['coluna'] = Acessa uma coluna da tabela.
 
-               df[['coluna1', 'coluna2']] = Acessa várias colunas da tabela.
+df[['coluna1', 'coluna2']] = Acessa várias colunas da tabela.
 
-               df.loc[condição] = Filtra a tabela com base numa condição (ex: linha onde 'Cliente' = 'Maria').
+df.loc[condição] = Filtra a tabela com base numa condição (ex: linha onde 'Cliente' = 'Maria').
 
-               df['coluna'].dt.strftime('%d/%m/%Y') = Formata datas no estilo “dia/mês/ano”.
+df['coluna'].dt.strftime('%d/%m/%Y') = Formata datas no estilo “dia/mês/ano”.
 
-               pd.to_datetime(df['coluna']) = Converte uma coluna de texto em datas de verdade.
+pd.to_datetime(df['coluna']) = Converte uma coluna de texto em datas de verdade.
 
-              if df.empty: = Verifica se a tabela está vazia (não encontrou nada).
+if df.empty: = Verifica se a tabela está vazia (não encontrou nada).
 
-              df.groupby('coluna') = Agrupa dados por valores únicos de uma coluna. 
+df.groupby('coluna') = Agrupa dados por valores únicos de uma coluna. 
 
-              groupby().count() = Conta quantos registros existem por grupo.
+ groupby().count() = Conta quantos registros existem por grupo.
 
-              groupby().sum() = Soma os valores dentro de cada grupo.
+  groupby().sum() = Soma os valores dentro de cada grupo.
 
-              reset_index() = Reorganiza a tabela após um groupby, voltando ao formato padrão.
+reset_index() = Reorganiza a tabela após um groupby, voltando ao formato padrão.
 
-             len(df) = Conta quantas linhas existem na tabela (útil para contar vendas, clientes, etc.).
+len(df) = Conta quantas linhas existem na tabela (útil para contar vendas, clientes, etc.).
