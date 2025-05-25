@@ -12,7 +12,7 @@ Este dicionário foi desenvolvido especialmente para representantes comerciais q
 
 
 
-                       explicaçao do codigo
+                       explicaçao de comandos basicos
 
 pd.read_excel() = Lê uma planilha Excel e transforma em uma tabela (DataFrame).
 
